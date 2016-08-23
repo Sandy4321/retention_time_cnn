@@ -1,3 +1,6 @@
+## Run this file to train a neural network and to predict retention times for a test set.
+# Run with e.g.: python main.py --test_file=test.txt --train_file=train.txt
+# Files for training and test set need to have the following format without header: SEQ TIME 
 import sys
 import argparse
 import run_model as run
